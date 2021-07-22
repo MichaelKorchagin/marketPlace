@@ -1,0 +1,23 @@
+{
+  "name": "js-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ./global.js",
+    "lint": "npx eslint src/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.11.4",
+    "@babel/register": "^7.10.5",
+    "@babel/cli": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "mocha": "^8.1.3"
+  }
+}

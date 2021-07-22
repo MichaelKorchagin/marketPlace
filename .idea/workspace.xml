@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="343321bf-06c1-4284-89e0-f2e357526677" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/js-projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/marketPlace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/marketPlace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gVxZPk7TywKM8TtY6uIBO0qMb7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unit test" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>--require ./global.js</extra-mocha-options>
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/test</test-directory>
+      <recursive>true</recursive>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="343321bf-06c1-4284-89e0-f2e357526677" name="Default Changelist" comment="" />
+      <created>1598213617094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598213617094</updated>
+      <workItem from="1598213618792" duration="8285000" />
+      <workItem from="1598258150794" duration="209000" />
+      <workItem from="1598395722280" duration="152000" />
+      <workItem from="1598440950331" duration="662000" />
+      <workItem from="1598443431661" duration="5974000" />
+      <workItem from="1598452656391" duration="1295000" />
+      <workItem from="1598455748036" duration="9445000" />
+      <workItem from="1598896173311" duration="7341000" />
+      <workItem from="1599054357250" duration="617000" />
+      <workItem from="1599062039060" duration="6973000" />
+      <workItem from="1599130724136" duration="5273000" />
+      <workItem from="1599392003667" duration="664000" />
+      <workItem from="1599920133741" duration="72000" />
+      <workItem from="1600326410403" duration="27000" />
+      <workItem from="1600327295553" duration="4036000" />
+      <workItem from="1600344307339" duration="5948000" />
+      <workItem from="1600365453830" duration="8050000" />
+      <workItem from="1605200337398" duration="62000" />
+      <workItem from="1605201889771" duration="261000" />
+      <workItem from="1605689148101" duration="1180000" />
+      <workItem from="1605986391833" duration="630000" />
+      <workItem from="1626979044218" duration="4175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="573" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626984895620">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="573" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/1600.-177.1920.1040@0.0.1600.860" timestamp="1626984895620" />
+    <state x="580" y="171" key="FileChooserDialogImpl" timestamp="1626984323757">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="171" key="FileChooserDialogImpl/0.0.1600.860/1600.-177.1920.1040@0.0.1600.860" timestamp="1626984323757" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1626984278092">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860/1600.-177.1920.1040@0.0.1600.860" timestamp="1626984278092" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1626984521677">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.-177.1920.1040@0.0.1600.860" timestamp="1626984521677" />
+    <state x="652" y="164" width="439" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1626984622156">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="652" y="164" width="439" height="532" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1600.860/1600.-177.1920.1040@0.0.1600.860" timestamp="1626984622156" />
+    <state x="601" y="336" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1626984483624">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="601" y="336" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1600.860/1600.-177.1920.1040@0.0.1600.860" timestamp="1626984483624" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="mocha-javascript-test-runner">
+        <watch expression="user1.balance" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
