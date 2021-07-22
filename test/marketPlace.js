@@ -15,20 +15,20 @@ describe('marketPlace', ()=> {
 
    });
 
-   it.only('Should make a deal with balance calculation (methodTrade) POSITIVE', ()=> {
+   it('Should make a deal with balance calculation (methodTrade) POSITIVE', ()=> {
 
        const priceCurrency = rub;
        const price = 30;
        const underlyingCurrency = usd;
        const orderSize = 1;
 
-       const user1 = new User(100, usd);
-       user1.methodDeposit(500, rub);
-       user1.methodCreateOrder(seller, usd, orderSize);
+       const user1 = new User(100, rub);
+       user1.methodDeposit(500, usd);
+       user1.methodCreateOrder(seller, underlyingCurrency, orderSize);
 
        const user2 = new User(250, usd);
        user2.methodDeposit(1000, rub);
-       user2.methodCreateOrder(buyer, usd, orderSize + 1);
+       user2.methodCreateOrder(buyer, underlyingCurrency, orderSize + 1);
 
        const startBalance1USD = user1.getBalanceInCurrency(usd);
        const startBalance2USD = user2.getBalanceInCurrency(usd);

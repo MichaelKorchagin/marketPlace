@@ -25,7 +25,11 @@ export class User {
 
     methodDeposit (amount, currencyType) {
         // вносим бабки
-        this.balance[currencyType] = this.balance[currencyType] + amount;
+        if (typeof this.balance[currencyType] === "undefined") {
+            this.balance[currencyType] = amount;
+        } else {
+            this.balance[currencyType] = this.balance[currencyType] + amount;
+        }
     }
 
     methodWithDraw (amount, currencyType) {
