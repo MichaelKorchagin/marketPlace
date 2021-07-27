@@ -23,7 +23,7 @@ describe('user', () => {
         assert.equal(user.balance[usd], 50);
     });
 
-    it ('should create user object and cancel the withdrawal operation (methodWithDraw)', () => {
+    it ('should create user object and cancel the withdrawal operation (methodWithDraw) *NEGATIVE*', () => {
         const user = new User (100, rub);
         try {
             user.methodWithDraw(200, rub);
