@@ -1,5 +1,5 @@
 import { seller, buyer, usd, rub } from "../src/constant";
-import { User } from "../src/user";
+import  User  from "../src/user";
 import { MarketPlace } from "../src/marketPlace";
 import assert from "assert";
 
@@ -15,7 +15,7 @@ describe('marketPlace', ()=> {
 
    });
 
-   it('Should make a deal with balance calculation (methodTrade) POSITIVE', ()=> {
+   it('Should make a deal with balance calculation (methodTrade) *POSITIVE*', ()=> {
 
        const priceCurrency = rub;
        const price = 30;

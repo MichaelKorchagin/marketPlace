@@ -1,4 +1,5 @@
 import { seller } from "./constant";
+import User from "./user";
 
 export class MarketPlace {
 
@@ -9,6 +10,31 @@ export class MarketPlace {
         this.underlyingCurrency = _underlyingCurrency;
         // цена главной валюты (в побочной)
         this.price = _price;
+        // ордерbook
+        this.orderbook = [];
+        this.userbook = {};
+        this.userCounter = 0;
+    }
+
+    methodCreateUser (balance, currencyType) {
+        const user = new User(balance, currencyType); // TODO Инициализация с нулем
+        this.userCounter++;
+        this.userbook[this.userCounter] = user;
+        return this.userCounter;
+    }
+
+    methodMarketPlaceDeposit (userId, amount, currencyType) {
+        if (!this.userbook[userId]) {
+            throw new Error('Нет такого юзера');
+        }
+        this.userbook[userId].methodDeposit(amount, currencyType);
+    }
+
+    methodMarketPlaceWithDraw (userId, amount, currencyType) {
+        if (!this.userbook[userId]) {
+            throw new Error('Нет такого юзера');
+        }
+        this.userbook[userId].methodWithDraw(amount, currencyType);
     }
 
     methodTrade (user1,user2) {
@@ -50,11 +76,14 @@ export class MarketPlace {
         if (_buyer.balance < buyerNeedPay || _seller.balance < sellerNeedPay) {
             throw new Error('Мало денег, жидло!');
         }
-
-        // проводим транзакции
-        _seller.balance[this.underlyingCurrency] = _seller.balance[this.underlyingCurrency] - sellerNeedPay;
-        _seller.balance[this.priceCurrency] = _seller.balance[this.priceCurrency] + buyerNeedPay;
-        _buyer.balance[this.underlyingCurrency] = _buyer.balance[this.underlyingCurrency] + sellerNeedPay;
-        _buyer.balance[this.priceCurrency] = _buyer.balance[this.priceCurrency] - buyerNeedPay;
+        else {
+            // проводим транзакции
+            _seller.balance[this.underlyingCurrency] = _seller.balance[this.underlyingCurrency] - sellerNeedPay;
+            _seller.balance[this.priceCurrency] = _seller.balance[this.priceCurrency] + buyerNeedPay;
+            _buyer.balance[this.underlyingCurrency] = _buyer.balance[this.underlyingCurrency] + sellerNeedPay;
+            _buyer.balance[this.priceCurrency] = _buyer.balance[this.priceCurrency] - buyerNeedPay;
+            orderStatus = "closed";
+            // или может проверить балансы, а потом закрывать? как в тесте
+        }
     }
 }
